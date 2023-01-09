@@ -384,7 +384,7 @@ void	LowPowerClass::idle(period_t period, adc_t adc,
 *				(b) TWI_ON - Leave TWI module in its default state
 *
 *******************************************************************************/
-#if defined (__AVR_ATmega324P__) || defined (__AVR_ATmega644P__) || defined (__AVR_ATmega1284P__)
+#if defined (__AVR_ATmega324PA__) || defined (__AVR_ATmega644P__) || defined (__AVR_ATmega1284P__)
 void	LowPowerClass::idle(period_t period, adc_t adc, timer2_t timer2,
 							timer1_t timer1, timer0_t timer0, spi_t spi,
 							usart1_t usart1, usart0_t usart0, twi_t twi)
